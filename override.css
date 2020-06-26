@@ -1,0 +1,17 @@
+/* COURSE CONTENT PAGE */
+
+body #content-wrapper {
+    background-color: rgb(39, 39, 39) !important;
+}
+
+.course-page-container p{
+    color: white;
+}
+
+td.number, span.timestamp.js-timestamp, aside, th, li a:not(:hover){
+    color: white !important;
+}
+
+footer#page-footer{
+    background-color: rgb(34, 34, 34);
+}

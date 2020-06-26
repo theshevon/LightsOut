@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Lights Out",
+    "version": "1.0",
+    "description": "Dark mode enforcer",
+
+    "permissions": ["activeTab", "declarativeContent", "storage", "<all_urls>"],
+
+    "content_scripts": [
+        {
+          "matches": ["https://groklearning.com/*"],
+          "css": ["override.css"],
+          "js": ["override.js"]
+        }
+    ],
+
+    "background": { "scripts": ["hot-reload.js"] }
+}
