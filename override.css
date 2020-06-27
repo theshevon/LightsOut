@@ -1,7 +1,7 @@
 /* COURSE CONTENT PAGE */
 
 body #content-wrapper {
-    background-color: rgb(39, 39, 39) !important;
+    background-color: #121212 !important;
 }
 
 .course-page-container p{
@@ -13,5 +13,56 @@ td.number, span.timestamp.js-timestamp, aside, th, li a:not(:hover){
 }
 
 footer#page-footer{
-    background-color: rgb(34, 34, 34);
+    background: #121212;
+    border-radius: 4px;
+}
+
+.table tr.open:hover{
+    background-color: rgb(43, 43, 43);
+}
+
+.navbar.navbar-page-header-blue-gray{
+    background-color: #121212;
+    border: none;
+}
+
+.navbar.navbar-page-header-blue{
+    background-color: #121212;
+    border: none;
+}
+
+.page-title.blue-gradient{
+    background-image: none !important;
+}
+
+#content-wrapper .navbar-page-header-blue-gray .navbar-nav>.active>a, #content-wrapper .navbar-page-header-blue-gray .navbar-nav>.active>a:focus, #content-wrapper .navbar-page-header-blue-gray .navbar-nav>.active>a:hover {
+    background-color: rgb(32, 121, 255) !important;
+}
+
+.navbar-page-header-blue-gray .navbar-nav>li>a{
+    background-color: #121212 !important;
+    background-color: rgba(255, 255, 255, 0.35) !important;
+}
+
+.open a{
+    color: rgb(23, 142, 253);
+}
+
+#page-footer .footer-nav {
+    border-bottom: 1px solid white !important;
+}
+
+#course-page .tab-pane>table tr.open>td:first-child {
+    box-shadow: inset 5px 0 0 0 rgb(32, 121, 255);
+}
+
+.tab-pane.active{
+    background-color: #121212;
+    background-color: rgba(255, 255, 255, 0.055);
+    padding: 5px;
+}
+
+.nav.nav.nav-tabs>li.active>a, .nav.nav.nav-tabs>li.active>a:focus, .nav.nav.nav-tabs>li.active>a:hover{
+    background-color: #121212 !important;
+    background-color: rgba(255, 255, 255, 0.055) !important;
 }
